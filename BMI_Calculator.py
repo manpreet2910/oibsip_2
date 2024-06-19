@@ -17,10 +17,8 @@ def calculate_BMI(weight, height):
 
 if __name__ == "__main__":
     print(" Welcome to Manpreet's BMI Calculator ! ")
-
     weight = Weight_input()
     height = Height_input()
-
     bmi = calculate_BMI(weight, height)
     print(f"Your final BMI is: {round(bmi, 2)}")
     if bmi < 18.5:
